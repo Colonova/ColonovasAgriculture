@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="All rights reserved"
+[[mods]]
+    modId="colonovasagriculture"
+    version="${file.jarVersion}"
+    displayName="Colonovas Agriculture"
+    credits="Colonova"
+    authors="Colonova"
+    description='''A agriculture mod which adds a wide variety of trees, blocks, crops and much more!'''
+[[dependencies.colonovasagriculture]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.colonovasagriculture]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.colonovasagriculture]]
+    modId="colonovascore"
+    mandatory=true
+    versionRange="[0.0.1,1.0.0)"
+    ordering="NONE"
+    side="BOTH"
